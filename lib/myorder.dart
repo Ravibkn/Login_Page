@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        "HomePage",
+        "Orders",
         style: TextStyle(
           fontSize: 30,
           fontWeight: FontWeight.bold,

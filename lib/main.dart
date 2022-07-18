@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:first_work/login_signup_screen.dart';
+import 'package:first_work/sidebar_layout.dart';
 // import 'package:first_work/login_signup_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Login_Signup UI",
-      home: LoginSignUpPage(),
+      home: SidebarLayOut(),
     );
   }
 }
